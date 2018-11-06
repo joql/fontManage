@@ -1,0 +1,50 @@
+
+<style type="text/css">
+    #btFontColor{
+        display:block;
+        width:20px;
+        height:20px;
+        top: 100px;
+        background-image:url(font.png);
+        background-color: red;
+        background-repeat: no-repeat;
+        background-position:50% 50%;
+    }
+    #msg {
+        position: relative;
+        top: 35px;
+        height: 67px; 
+        overflow:auto;
+        font-size:13px; 
+        outline: none;
+        z-index: 3;
+        margin: 5px 115px 5px 5px; 
+        bottom: 0;
+        left: 0;
+        border-radius: 2px;
+        background: rgba(0,0,0,0.2);
+}
+</style>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<div class="chat-tool" style="position: relative;top: 220px;">
+    <a href="javascript:void(0)" class="bar btn-font" id="btFontColor"></a>
+
+    <!-- 字体设置 -->
+    <div id="fontManage">
+    </div>
+    
+    <div id="msg" contenteditable="true"></div>
+</div>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+    var settings = {
+        'btn': 'btFontColor',
+        'msg': 'msg',
+    };
+    $().ready(function(){
+        $().fontManage();
+    });
+</script>

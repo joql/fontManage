@@ -1,0 +1,63 @@
+/*字体设置*/
+
+select {
+    font-family: inherit;
+}
+#fontManage #fontBar {
+    display: none;
+    background: #F8F8F8;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #7db9e7;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+#fontManage #colorTable {
+    border: 1px solid #CCB3B3; 
+    background: #F8F8F8; 
+    width: 180px;
+    position: absolute; 
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+}
+#fontManage #colorTable li {
+    list-style-position: outside;
+    list-style-type: none;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    float: left;
+}
+#fontManage .font-input {
+    border: 1px #F8F8F8 solid; 
+    background-color: #F8F8F8;
+    vertical-align: top;
+    margin-top: 5px;
+}
+#fontManage .font-input:hover,
+#fontManage .font-input.selected {
+    border: 1px #999 solid; 
+    background-color: #ccc;
+}
+#fontManage .font-blod {
+    width: 17px;
+    background-image:url(img/bold.gif);
+}
+
+#fontManage .font-italic {
+    width: 17px;
+    background-image:url(img/italic.gif);
+}
+
+#fontManage .font-under-line {
+    width: 17px;
+    background-image:url(img/underline.gif);
+}
+#fontManage .font-color {
+    width: 17px;
+    background-image:url(img/color.gif);
+}
