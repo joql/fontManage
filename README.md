@@ -1,6 +1,9 @@
 # fontManage
 字体颜色大小编辑 js封装
 
+
+## 预览
+![preview](https://github.com/joql/fontManage/blob/master/preview.png?raw=true)
 ## 使用
 ```
 <link rel="stylesheet" type="text/css" href="main.css">
