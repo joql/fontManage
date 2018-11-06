@@ -17,7 +17,7 @@
         'msg': 'msg',
     };
     $().ready(function(){
-        $().fontManage();
+        $().fontManage(settings);
     });
 </script>
 
